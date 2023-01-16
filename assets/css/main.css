@@ -4135,3 +4135,24 @@ input, select, textarea {
 
 	}
 	
+ 
+#cc img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  --b: 3px;     /* the border thickness*/
+  --g: 10px;    /* the gap */
+  --c: #FFD700; /* the color */
+  
+  outline: calc(var(--s)/2) solid #0009;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+#cc img:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+
+#cc img + img {
+  border-radius: 50%;
+}
