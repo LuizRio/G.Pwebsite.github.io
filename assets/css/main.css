@@ -254,7 +254,7 @@ input, select, textarea {
 		
 		a.special1:hover {
 			border-bottom-color: transparent;
-			color: #000 !important;
+			color: #FFD700; !important;
 		}
 
 		a.special1:not(.button) {
