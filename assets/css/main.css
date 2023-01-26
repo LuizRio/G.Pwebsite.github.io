@@ -254,7 +254,7 @@ input, select, textarea {
 		
 		a.special1:hover {
 			border-bottom-color: transparent;
-			color: #FFD700; !important;
+			color: rgb(255, 215, 0); !important;
 		}
 
 		a.special1:not(.button) {
